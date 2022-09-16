@@ -1,6 +1,7 @@
 print("Hello There! How can i help you?\n")
 
-while True:
+# a while loop to prevent the user input a invalid value
+while True: 
         operation = int(input("Select the operation you want to execute: \n[1] Sum\n[2] Subtract\n[3] Multiply\n[4] Divide\n: "))
         if operation in (1, 2, 3, 4):
 
